@@ -25,5 +25,10 @@ namespace TeeChartDemo
         {
             new D2().ShowDialog();
         }
+
+        private void btnThirdImageForm_Click(object sender, EventArgs e)
+        {
+            new D3().ShowDialog();
+        }
     }
 }
