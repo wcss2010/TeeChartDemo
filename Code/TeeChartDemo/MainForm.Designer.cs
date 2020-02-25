@@ -28,20 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnXYLineImage = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Form1
+            // btnXYLineImage
+            // 
+            this.btnXYLineImage.Location = new System.Drawing.Point(12, 12);
+            this.btnXYLineImage.Name = "btnXYLineImage";
+            this.btnXYLineImage.Size = new System.Drawing.Size(112, 45);
+            this.btnXYLineImage.TabIndex = 0;
+            this.btnXYLineImage.Text = "曲线图";
+            this.btnXYLineImage.UseVisualStyleBackColor = true;
+            this.btnXYLineImage.Click += new System.EventHandler(this.btnXYLineImage_Click);
+            // 
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(552, 415);
-            this.Name = "Form1";
+            this.Controls.Add(this.btnXYLineImage);
+            this.Name = "MainForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnXYLineImage;
     }
 }
 
