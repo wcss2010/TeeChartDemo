@@ -19,6 +19,7 @@ namespace TeeChartDemo
         private void D2_Load(object sender, EventArgs e)
         {
             this.tChart1.Header.Text = "霸道测试";
+            this.tChart1.Series.Add(fastLine1);
             fastLine1.Add(DateTime.Now.ToOADate(), 1000);
 
             fastLine1.GetVertAxis.SetMinMax(0, 1500);

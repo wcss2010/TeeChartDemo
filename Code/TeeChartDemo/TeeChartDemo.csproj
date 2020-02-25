@@ -108,6 +108,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TeeChartHelperA.cs" />
+    <Compile Include="TeeChartHelperB.cs" />
     <EmbeddedResource Include="D1.resx">
       <DependentUpon>D1.cs</DependentUpon>
     </EmbeddedResource>
