@@ -94,6 +94,12 @@
     <Compile Include="D1.Designer.cs">
       <DependentUpon>D1.cs</DependentUpon>
     </Compile>
+    <Compile Include="D2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="D2.Designer.cs">
+      <DependentUpon>D2.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="D1.resx">
       <DependentUpon>D1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="D2.resx">
+      <DependentUpon>D2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

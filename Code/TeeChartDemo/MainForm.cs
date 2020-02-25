@@ -20,5 +20,10 @@ namespace TeeChartDemo
         {
             new D1().ShowDialog();
         }
+
+        private void btnXYLineImage2_Click(object sender, EventArgs e)
+        {
+            new D2().ShowDialog();
+        }
     }
 }
